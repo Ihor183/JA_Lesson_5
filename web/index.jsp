@@ -10,21 +10,17 @@
 <html>
 <head>
     <title>Servlet</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="registrationForm">
-        <h2>Registration</h2>
-        <form action="registration" method="post">
-            <input id="name" name="name" placeholder="Name" required>
-            <input id="lastName" name="lastName" placeholder="Last name" required>
-            <input id="email" name="email" placeholder="Email" required>
-            <input id="password" name="password" placeholder="Password" required>
-            <input id="buttonId" type="submit" value="Sign up">
-        </form>
-    </div>
-
-    <%--<script src="script.js"></script>--%>
+<div class="authorize">
+    <hr>
+    <ul>
+        <li><a href="register.jsp">Sign up</a></li>
+        <li><a href="login.jsp">Sign in</a></li>
+    </ul>
+    <hr>
+</div>
 
 </body>
 </html>

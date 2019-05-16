@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styleForm.css">
 </head>
 <body>
 <div class="registrationForm">
