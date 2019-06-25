@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>registration</servlet-name>
-        <servlet-class>ua.ternopil.igorbendera.RegistrationServlet</servlet-class>
+        <servlet-class>ua.ternopil.igorbendera.servlet.RegistrationServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -16,7 +16,7 @@
 
     <servlet>
         <servlet-name>login</servlet-name>
-        <servlet-class>ua.ternopil.igorbendera.LoginServlet</servlet-class>
+        <servlet-class>ua.ternopil.igorbendera.servlet.LoginServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
